@@ -1,6 +1,6 @@
 /*
  *  TV Input - Linux analogue (v4lv2) interface
- *  Copyright (C) 2007 Andreas Öman
+ *  Copyright (C) 2007 Andreas Ã–man
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -517,7 +517,7 @@ v4l_adapter_check(const char *path, int fd)
   }
 
 
-  int can_mpeg = 0;
+  int can_mpeg = 1;
 
   /* Enum formats */
   for(i = 0;; i++) {
