@@ -176,7 +176,7 @@ v4l_service_start(service_t *t, unsigned int weight, int force_start)
   int frequency = t->s_v4l_frequency;
   struct v4l2_frequency vf;
   int result;
-  v4l2_std_id std = 0xff;
+  v4l2_std_id std = V4L2_STD_PAL_B;
   int fd;
 
   if(va->va_current_service != NULL)
