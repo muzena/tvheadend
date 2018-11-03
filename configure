@@ -37,7 +37,7 @@ OPTIONS=(
   "imagecache:auto"
   "avahi:auto"
   "zlib:auto"
-  "libav:yes"
+  "libav:auto"
   "ffmpeg_static:yes"
   "libx264:yes"
   "libx264_static:yes"
